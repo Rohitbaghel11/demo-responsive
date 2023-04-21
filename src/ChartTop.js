@@ -4,7 +4,7 @@ import "./index.css";
 const ChartTop = () => {
   return (
     <div
-      className="w-full h-16 bg-red-500"
+      className="w-full h-[60px] min-h-[60px] bg-red-500"
     >
       ChartTop
     </div>

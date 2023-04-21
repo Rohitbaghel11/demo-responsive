@@ -3,7 +3,7 @@ import './index.css';
 
 const Graph = () => {
   return (
-    <div className='w-full h-full bg-red-500'>Graph</div>
+    <div className='w-full min-h-0 bg-red-500 overflow-hidden grow'>Graph</div>
   )
 }
 
