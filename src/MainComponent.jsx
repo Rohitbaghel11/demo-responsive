@@ -18,7 +18,7 @@ const MainComponent = () => {
   return (
     <div className='flex flex-col gap-2 w-full'>
         <ChartTop/>
-{screenWidth < 1919 ? (<><div className="grow flex gap-2 min-h-0 overflow-hidden">
+{screenWidth < 1920 ? (<><div className="grow flex gap-2 min-h-0 overflow-hidden">
         <OrderBook />
         <Graph />
       </div><Tabs /></>
